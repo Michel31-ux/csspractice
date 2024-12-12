@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+ h1{
+    font-size: 50px;
+    text-align: center;
+ }
+
+.container {
+    display: flex;
+    height: 100vh; /* Makes the container take up the full height of the viewport */
+}
+
+.left, .right {
+    flex: 1; /* Makes both sections take equal space */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left {
+    margin-left: 300px;
+   
+}
+
+.right {
+    margin-right: 300px;
+}
+
+h2 {
+    font-size: 36px;
+
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+    margin: 10px ;
+    margin-bottom: 250px;
+    border-radius: 20px;
+    
+}
+
+.second-image {
+    margin-bottom: 100px; 
+}
+p {
+    font-size: 20px;
+}
